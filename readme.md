@@ -1,6 +1,8 @@
-# Apache Cassandra
+# Apache Cassandra 👁️
 
 Apache Cassandra is an open-source distributed NoSQL database system designed to handle large amounts of data across many commodity servers, providing high availability and fault tolerance with no single point of failure. It was initially developed at Facebook and is now maintained by the Apache Software Foundation.
+
+![Apache Cassandra](https://imgur.com/aX6p31q.png)
 
 Cassandra is designed to handle structured, semi-structured, and unstructured data with a highly scalable architecture that can be easily distributed across multiple nodes. It provides support for ACID transactions, with strong consistency guarantees, and can handle read and write operations at a massive scale.
 
