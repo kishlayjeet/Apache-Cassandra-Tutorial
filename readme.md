@@ -43,7 +43,7 @@ To install Apache Cassandra, follow these steps:
 6. Start the Cassandra server by running the following command from the bin directory:
 
 ```bash
- ./cassandra -f
+./cassandra -f
 ```
 
 The `-f` option starts the server in the foreground and allows you to monitor the server logs for any errors or warnings.
@@ -63,43 +63,43 @@ CQL is a query language used to interact with Cassandra's data model. It is simi
 #### ~ Creating a keyspace:
 
 ```bash
- CREATE KEYSPACE <keyspace_name> WITH replication = {'class': 'SimpleStrategy', 'replication_factor': <num_of_replicas>};
+CREATE KEYSPACE <keyspace_name> WITH replication = {'class': 'SimpleStrategy', 'replication_factor': <num_of_replicas>};
 ```
 
 #### ~ Using a keyspace:
 
 ```bash
- USE <keyspace_name>;
+USE <keyspace_name>;
 ```
 
 #### ~ Creating a table:
 
 ```bash
- CREATE TABLE <table_name> (<column_name> <data_type> PRIMARY KEY);
+CREATE TABLE <table_name> (<column_name> <data_type> PRIMARY KEY);
 ```
 
 #### ~ Inserting data into a table:
 
 ```bash
- INSERT INTO <table_name> (<column_name>, <column_name>, ...) VALUES (<value>, <value>, ...);
+INSERT INTO <table_name> (<column_name>, <column_name>, ...) VALUES (<value>, <value>, ...);
 ```
 
 #### ~ Querying data from a table:
 
 ```bash
- SELECT * FROM <table_name> WHERE <column_name> = <value>;
+SELECT * FROM <table_name> WHERE <column_name> = <value>;
 ```
 
 #### ~ Updating data in a table:
 
 ```bash
- UPDATE <table_name> SET <column_name> = <new_value> WHERE <column_name> = <old_value>;
+UPDATE <table_name> SET <column_name> = <new_value> WHERE <column_name> = <old_value>;
 ```
 
 #### ~ Deleting data from a table:
 
 ```bash
- DELETE FROM <table_name> WHERE <column_name> = <value>;
+DELETE FROM <table_name> WHERE <column_name> = <value>;
 ```
 
 ## Cassandra Cheat Sheet
